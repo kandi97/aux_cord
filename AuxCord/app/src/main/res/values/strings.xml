@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aux Cord</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="my_picks">My Picks</string>
+    <string name="party_playlist">Party Playlist</string>
+    <string name="persona">Persona</string>
+    <string name="home">Home</string>
+    <string name="search1">Search</string>
+    <string name="app_label">Aux_cord</string>
+    <string name="search_hint">Enter a party name</string>
+    <string name="start_party">Create a party</string>
+    <string name="join">Join</string>
+    <string name="party_name">Party_name</string>
+    <string name="nearby_party">Nearby party</string>
+    <string name="song_name">Song name</string>
+    <string name="now_playing">Now playing</string>
+</resources>

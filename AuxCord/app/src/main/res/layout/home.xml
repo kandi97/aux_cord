@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/tool_bar_main"
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar1"
+        android:layout_centerHorizontal="true">
+
+
+    </SearchView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="270dp"
+        android:layout_below="@id/search_bar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_bar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nearby_party"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"/>
+            <RelativeLayout
+                android:id="@+id/party1"
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/party_name"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"/>
+                <ImageButton
+                    android:id="@+id/ib1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu1"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="@string/join"
+                    android:textSize="10sp"
+                    android:layout_toLeftOf="@id/ib1"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/party2"
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/party_name"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"/>
+                <ImageButton
+                    android:id="@+id/ib2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu1"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="@string/join"
+                    android:textSize="10sp"
+                    android:layout_toLeftOf="@id/ib2"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/party3"
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/party_name"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"/>
+                <ImageButton
+                    android:id="@+id/ib3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu1"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="@string/join"
+                    android:textSize="10sp"
+                    android:layout_toLeftOf="@id/ib3"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/party4"
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/party_name"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"/>
+                <ImageButton
+                    android:id="@+id/ib4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu1"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="@string/join"
+                    android:textSize="10sp"
+                    android:layout_toLeftOf="@id/ib4"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/party5"
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/party_name"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"/>
+                <ImageButton
+                    android:id="@+id/ib5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/menu1"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="@string/join"
+                    android:textSize="10sp"
+                    android:layout_toLeftOf="@id/ib5"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/start_party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_party"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
