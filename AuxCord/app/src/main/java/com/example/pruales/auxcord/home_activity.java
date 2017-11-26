@@ -2,6 +2,7 @@ package com.example.pruales.auxcord;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
@@ -18,6 +19,7 @@ public class home_activity extends AppCompatActivity {
         setContentView(R.layout.home);
         Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Intent intenr= new Intent();
     }
     @Override
 
