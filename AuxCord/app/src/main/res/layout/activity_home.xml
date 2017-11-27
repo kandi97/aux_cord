@@ -62,11 +62,13 @@
                     android:layout_alignParentRight="true"
                     />
                 <Button
+                    android:id="@+id/join1"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
                     android:textSize="10sp"
-                    android:layout_toLeftOf="@id/ib1"/>
+                    android:layout_toLeftOf="@id/ib1"
+                    android:onClick="buttonPressed"/>
 
             </RelativeLayout>
             <RelativeLayout
@@ -92,11 +94,13 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join2"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
                     android:textSize="10sp"
-                    android:layout_toLeftOf="@id/ib2"/>
+                    android:layout_toLeftOf="@id/ib2"
+                    android:onClick="buttonPressed"/>
 
             </RelativeLayout>
             <RelativeLayout
@@ -122,6 +126,8 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join3"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
@@ -152,6 +158,8 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join4"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
@@ -183,6 +191,8 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join5"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"

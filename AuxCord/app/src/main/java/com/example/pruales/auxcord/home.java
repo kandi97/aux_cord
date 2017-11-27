@@ -2,13 +2,16 @@ package com.example.pruales.auxcord;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Switch;
 
 public class home extends AppCompatActivity {
 
@@ -33,6 +36,29 @@ public class home extends AppCompatActivity {
     }
 
     public void buttonPressed(View view) {
-        
+        switch(view.getId()) {
+            case R.id.join1:
+                Log.d("STATE", "joining party 1");
+                break;
+            case R.id.join2:
+                Log.d("STATE", "joining party 2");
+                break;
+            case R.id.join3:
+                Log.d("STATE", "joining party 3");
+                break;
+            case R.id.join4:
+                Log.d("STATE", "joining party 4");
+                break;
+            case R.id.join5:
+                Log.d("STATE", "joining party 5");
+                break;
+            default:
+                Log.d("STATE", "uncaught id");
+                break;
+        }
+
+        Intent intent = new Intent(this, party_playlist.class);
+        startActivity(intent);
+
     }
 }
