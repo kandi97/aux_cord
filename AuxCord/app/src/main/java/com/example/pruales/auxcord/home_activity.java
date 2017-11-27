@@ -14,7 +14,7 @@ import android.view.MenuItem;
  */
 public class home_activity extends AppCompatActivity {
 
-    protected void onCreated(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
         Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
