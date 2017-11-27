@@ -16,4 +16,5 @@
     <string name="song_name">Song name</string>
     <string name="now_playing">Now playing</string>
     <string name="search">Search</string>
+    <string name="mypicks_toolbar">My Picks</string>
 </resources>
