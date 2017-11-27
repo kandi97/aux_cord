@@ -27,10 +27,10 @@
 
 
     <string-array name="party_list">
-        <item>Paul's Party</item>
-        <item>Akhil's Party</item>
-        <item>Yi's Party</item>
-        <item>Brian's party</item>
+        <item>Paul_Party</item>
+        <item>Akhil_Party</item>
+        <item>Yi_Party</item>
+        <item>Brian_party</item>
     </string-array>
 
     <string name="search">Search</string>
