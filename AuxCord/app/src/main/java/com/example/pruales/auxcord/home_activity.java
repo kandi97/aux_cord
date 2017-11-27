@@ -13,6 +13,7 @@ import android.view.MenuItem;
  * Created by xanth on 11/18/2017.
  */
 public class home_activity extends AppCompatActivity {
+
     protected void onCreated(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
@@ -20,7 +21,6 @@ public class home_activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
     @Override
-
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.search1, menu);

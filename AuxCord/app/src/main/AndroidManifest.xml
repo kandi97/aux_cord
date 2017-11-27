@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".persona"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -25,9 +26,14 @@
             android:name=".persona_page"
             android:label="@string/title_activity_persona_page"
             android:theme="@style/AppTheme" />
-        <activity android:name=".tool_bar_persona" />
         <activity android:name=".persona_screen" />
         <activity android:name=".persona_toolbar"></activity>
+
+        <!-- <activity android:name=".home_activity"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name=".home"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,6 @@
     <string name="party_playlist">Party Playlist</string>
     <string name="persona">Persona</string>
     <string name="home">Home</string>
-    <string name="persona">Persona</string>
     <string name="search1">Search</string>
     <string name="app_label">Aux_cord</string>
     <string name="search_hint">Enter a party name</string>
@@ -17,12 +16,13 @@
     <string name="song_name">Song name</string>
     <string name="now_playing">Now playing</string>
 
+
     <string name="title_activity_persona">persona</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_persona_page">persona_page</string>
 
-    <string name="app_name">MyAndroidApp</string>
+
     <string name="party_prompt">Choose a party</string>
 
 
@@ -32,4 +32,8 @@
         <item>Yi's Party</item>
         <item>Brian's party</item>
     </string-array>
+
+    <string name="search">Search</string>
+    <string name="mypicks_toolbar">My Picks</string>
+
 </resources>
