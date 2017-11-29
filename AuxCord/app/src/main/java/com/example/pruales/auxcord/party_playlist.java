@@ -7,15 +7,30 @@ import android.util.Log;
 import android.view.*;
 import android.support.design.widget.BottomNavigationView;
 import android.support.annotation.*;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 public class party_playlist extends AppCompatActivity {
 
+    private ArrayAdapter<String> songsAdapter;
+    private ListView mSongListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_party_playlist);
+        mSongListView = (ListView) findViewById(R.id.party_playlist);
+
+
+        songsAdapter = new ArrayAdapter<>(this,
+                R.layout.party_playlist_songs,
+                R.id.song_title,
+                PartyPlaylist.songs);
+
+        mSongListView.setAdapter(songsAdapter);
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)
                 findViewById(R.id.bottom_navigation);
@@ -42,6 +57,7 @@ public class party_playlist extends AppCompatActivity {
                         return false;
                     }
                 });
+
     }
 
 

@@ -39,8 +39,8 @@ public class home extends AppCompatActivity {
         switch(view.getId()) {
             case R.id.join1:
                 Log.d("STATE", "joining party 1");
-//                Intent intent = new Intent(this, party_playlist.class);
-//                startActivity(intent);
+                Intent intent = new Intent(this, party_playlist.class);
+                startActivity(intent);
                 break;
             case R.id.join2:
                 Log.d("STATE", "joining party 2");
@@ -55,8 +55,8 @@ public class home extends AppCompatActivity {
                 Log.d("STATE", "joining party 5");
                 break;
             case R.id.start_party:
-                Intent intent = new Intent(this, create_party.class);
-                startActivity(intent);
+//                Intent intent = new Intent(this, create_party.class);
+//                startActivity(intent);
                 break;
             default:
                 Log.d("STATE", "uncaught id");
