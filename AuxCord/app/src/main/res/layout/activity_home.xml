@@ -209,7 +209,8 @@
         android:layout_alignParentBottom="true"
         android:text="@string/start_party"
         android:backgroundTint="@color/colorPrimary"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:onClick="buttonPressed"/>
 
 
 </RelativeLayout>

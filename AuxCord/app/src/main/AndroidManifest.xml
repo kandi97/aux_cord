@@ -23,7 +23,8 @@
         <activity android:name=".home" />
         <activity android:name=".party_playlist" />
         <activity android:name=".my_picks" />
-        <activity android:name=".persona"></activity>
+        <activity android:name=".persona" />
+        <activity android:name=".create_party"></activity>
     </application>
 
 </manifest>
