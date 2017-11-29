@@ -55,8 +55,8 @@ public class home extends AppCompatActivity {
                 Log.d("STATE", "joining party 5");
                 break;
             case R.id.start_party:
-//                Intent intent = new Intent(this, create_party.class);
-//                startActivity(intent);
+                Intent startPartyIntent = new Intent(this, create_party.class);
+                startActivity(startPartyIntent);
                 break;
             default:
                 Log.d("STATE", "uncaught id");
