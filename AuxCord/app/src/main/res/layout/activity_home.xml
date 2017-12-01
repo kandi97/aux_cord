@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include
-        layout="@layout/tool_bar_main"
-        android:id="@+id/toolbar1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <!--<include-->
+        <!--layout="@layout/tool_bar_main"-->
+        <!--android:id="@+id/toolbar1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
     <SearchView
         android:id="@+id/search_bar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/toolbar1"
+
         android:layout_centerHorizontal="true">
 
 
@@ -43,15 +43,14 @@
                 android:layout_width="220dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
+                android:paddingStart="3dp"
                 android:background="@drawable/button_bg"
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_marginLeft="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/party_name"
-                    android:textColor="@android:color/black"
+                    android:text="Paul's party"
                     android:textSize="18sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
@@ -60,33 +59,34 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/menu1"
-                    android:backgroundTint="#80e0ffff"
                     android:scaleType="fitXY"
-                    android:layout_alignParentRight="true"/>
+                    android:backgroundTint="#80e0ffff"
+                    android:layout_alignParentRight="true"
+                    />
                 <Button
+                    android:id="@+id/join1"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
-                    android:backgroundTint="#80e0ffff"
                     android:textSize="10sp"
-                    android:layout_toLeftOf="@id/ib1"/>
+                    android:backgroundTint="#80e0ffff"
+                    android:layout_toLeftOf="@id/ib1"
+                    android:onClick="buttonPressed"/>
 
             </RelativeLayout>
-
             <RelativeLayout
                 android:id="@+id/party2"
                 android:layout_width="220dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
+                android:paddingStart="3dp"
                 android:background="@drawable/button_bg"
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_marginLeft="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
@@ -95,16 +95,18 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/menu1"
-                    android:backgroundTint="#80e0ffff"
                     android:scaleType="fitXY"
+                    android:backgroundTint="#80e0ffff"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join2"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
-                    android:backgroundTint="#80e0ffff"
                     android:textSize="10sp"
-                    android:layout_toLeftOf="@id/ib2"/>
+                    android:backgroundTint="#80e0ffff"
+                    android:layout_toLeftOf="@id/ib2"
+                    android:onClick="buttonPressed"/>
 
             </RelativeLayout>
             <RelativeLayout
@@ -112,15 +114,14 @@
                 android:layout_width="220dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
+                android:paddingStart="3dp"
                 android:background="@drawable/button_bg"
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_marginLeft="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
@@ -129,15 +130,17 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/menu1"
-                    android:backgroundTint="#80e0ffff"
                     android:scaleType="fitXY"
+                    android:backgroundTint="#80e0ffff"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join3"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
-                    android:backgroundTint="#80e0ffff"
                     android:textSize="10sp"
+                    android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib3"/>
 
             </RelativeLayout>
@@ -146,15 +149,14 @@
                 android:layout_width="220dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
+                android:paddingStart="3dp"
                 android:background="@drawable/button_bg"
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_marginLeft="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
@@ -167,6 +169,8 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join4"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
@@ -179,18 +183,19 @@
                 android:id="@+id/party5"
                 android:layout_width="220dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
                 android:layout_height="wrap_content"
+                android:paddingStart="3dp"
                 android:background="@drawable/button_bg"
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_marginLeft="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:gravity="center"
+
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib5"
@@ -201,15 +206,16 @@
                     android:scaleType="fitXY"
                     android:layout_alignParentRight="true"/>
                 <Button
+                    android:id="@+id/join5"
+                    android:onClick="buttonPressed"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
                     android:text="@string/join"
-                    android:backgroundTint="#80e0ffff"
                     android:textSize="10sp"
+                    android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib5"/>
 
             </RelativeLayout>
-
         </LinearLayout>
     </ScrollView>
     <Button
@@ -219,7 +225,8 @@
         android:layout_alignParentBottom="true"
         android:text="@string/start_party"
         android:backgroundTint="@color/colorPrimary"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:onClick="buttonPressed"/>
 
 
 </RelativeLayout>

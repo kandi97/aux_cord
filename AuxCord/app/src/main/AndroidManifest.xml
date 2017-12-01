@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- <activity android:name=".home_activity"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name=".home" android:label="@string/home" />
+        <activity android:name=".party_playlist"  android:label="@string/party_playlist" />
+        <activity android:name=".my_picks" android:label="@string/my_picks"/>
+        <activity android:name=".persona" android:label="@string/persona"/>
+        <activity android:name=".create_party" android:label="@string/start_party"/>
+
+        <!--</activity>-->
+
+
     </application>
 
 </manifest>
