@@ -70,8 +70,13 @@ public class party_playlist extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int res_id= item.getItemId();
-        if (res_id==R.id.toolbar_item2){
-            Log.d("STATE", "settings");
+        if (res_id==R.id.toolbar_item1){
+            Intent intent= new Intent(this, home.class);
+            startActivity(intent);
+
+        } else if (res_id==R.id.toolbar_item3){
+            Intent intent2= new Intent(this,MainActivity.class);
+            startActivity(intent2);
         }
         return true;
 

@@ -23,7 +23,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
-        android:layout_height="270dp"
+        android:layout_height="300dp"
         android:layout_below="@id/search_bar">
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 android:textColor="@android:color/black"/>
             <RelativeLayout
                 android:id="@+id/party1"
-                android:layout_width="220dp"
+                android:layout_width="275dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
                 android:paddingStart="3dp"
@@ -51,13 +51,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Paul's party"
-                    android:textSize="18sp"
+                    android:textSize="24sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib1"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:src="@drawable/menu1"
                     android:scaleType="fitXY"
                     android:backgroundTint="#80e0ffff"
@@ -65,10 +65,10 @@
                     />
                 <Button
                     android:id="@+id/join1"
-                    android:layout_width="60dp"
-                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
                     android:text="@string/join"
-                    android:textSize="10sp"
+                    android:textSize="12sp"
                     android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib1"
                     android:onClick="buttonPressed"/>
@@ -76,7 +76,7 @@
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/party2"
-                android:layout_width="220dp"
+                android:layout_width="275dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
                 android:paddingStart="3dp"
@@ -87,23 +87,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textSize="18sp"
+                    android:textSize="24sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib2"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:src="@drawable/menu1"
                     android:scaleType="fitXY"
                     android:backgroundTint="#80e0ffff"
                     android:layout_alignParentRight="true"/>
                 <Button
                     android:id="@+id/join2"
-                    android:layout_width="60dp"
-                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
                     android:text="@string/join"
-                    android:textSize="10sp"
+                    android:textSize="12sp"
                     android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib2"
                     android:onClick="buttonPressed"/>
@@ -111,7 +111,7 @@
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/party3"
-                android:layout_width="220dp"
+                android:layout_width="275dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
                 android:paddingStart="3dp"
@@ -122,13 +122,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textSize="18sp"
+                    android:textSize="24sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib3"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:src="@drawable/menu1"
                     android:scaleType="fitXY"
                     android:backgroundTint="#80e0ffff"
@@ -136,17 +136,17 @@
                 <Button
                     android:id="@+id/join3"
                     android:onClick="buttonPressed"
-                    android:layout_width="60dp"
-                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
                     android:text="@string/join"
-                    android:textSize="10sp"
+                    android:textSize="12sp"
                     android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib3"/>
 
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/party4"
-                android:layout_width="220dp"
+                android:layout_width="275dp"
                 android:layout_marginTop="40dp"
                 android:layout_height="wrap_content"
                 android:paddingStart="3dp"
@@ -157,13 +157,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textSize="18sp"
+                    android:textSize="24sp"
                     android:gravity="center"
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib4"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:src="@drawable/menu1"
                     android:backgroundTint="#80e0ffff"
                     android:scaleType="fitXY"
@@ -171,17 +171,17 @@
                 <Button
                     android:id="@+id/join4"
                     android:onClick="buttonPressed"
-                    android:layout_width="60dp"
-                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
                     android:text="@string/join"
                     android:backgroundTint="#80e0ffff"
-                    android:textSize="10sp"
+                    android:textSize="12sp"
                     android:layout_toLeftOf="@id/ib4"/>
 
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/party5"
-                android:layout_width="220dp"
+                android:layout_width="275dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:layout_height="wrap_content"
@@ -193,14 +193,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/party_name"
-                    android:textSize="18sp"
+                    android:textSize="24sp"
                     android:gravity="center"
 
                     android:layout_alignParentLeft="true"/>
                 <ImageButton
                     android:id="@+id/ib5"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
                     android:src="@drawable/menu1"
                     android:backgroundTint="#80e0ffff"
                     android:scaleType="fitXY"
@@ -208,10 +208,10 @@
                 <Button
                     android:id="@+id/join5"
                     android:onClick="buttonPressed"
-                    android:layout_width="60dp"
-                    android:layout_height="30dp"
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
                     android:text="@string/join"
-                    android:textSize="10sp"
+                    android:textSize="12sp"
                     android:backgroundTint="#80e0ffff"
                     android:layout_toLeftOf="@id/ib5"/>
 

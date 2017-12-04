@@ -17,4 +17,8 @@
         android:title="Log out"
         app:showAsAction="never" />
 
+    <item android:id="@+id/toolbar_item1"
+        android:title="Leave party"
+        app:showAsAction="never" />
+
 </menu>
