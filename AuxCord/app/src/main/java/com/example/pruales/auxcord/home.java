@@ -20,6 +20,10 @@ public class home extends AppCompatActivity {
 //        android.support.v7.app.ActionBar ab = getSupportActionBar();
 //        ab.setTitle("Aux cord");
 //        ab.setSubtitle("Home");
+        PartyPlaylist.my_picks.clear();
+        PartyPlaylist.my_picks.add("Mans Not Hot by Big Shaq");
+        PartyPlaylist.my_picks.add("Gucci Gang by Lil Pump");
+        PartyPlaylist.my_picks.add("Rockstar by Post Malone");
     }
 
     public boolean onCreateOptionsMenu( Menu menu) {

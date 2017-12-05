@@ -1,5 +1,7 @@
 package com.example.pruales.auxcord;
 
+import android.widget.ArrayAdapter;
+
 import java.util.ArrayList;
 
 /**
@@ -8,6 +10,7 @@ import java.util.ArrayList;
 
 public class PartyPlaylist {
     public static ArrayList<String> songs = new ArrayList<>();
+    public static ArrayList<String> my_picks = new ArrayList<>();
 
     public PartyPlaylist(ArrayList<String> songs) {
         this.songs = songs;

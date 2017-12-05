@@ -34,7 +34,7 @@ public class my_picks extends AppCompatActivity {
         songsAdapter = new ArrayAdapter<>(this,
                 R.layout.my_picks_songs,
                 R.id.song_title,
-                songs);
+                PartyPlaylist.my_picks);
 
         mSongListView.setAdapter(songsAdapter);
 
@@ -95,7 +95,7 @@ public class my_picks extends AppCompatActivity {
         String song = String.valueOf(songTextView.getText());
 
         Log.d("Song Picked", song);
-
+        PartyPlaylist.my_picks.remove(song);
         PartyPlaylist.songs.add(song);
 
         Intent intent = new Intent(this, party_playlist.class);

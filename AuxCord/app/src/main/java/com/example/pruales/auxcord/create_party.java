@@ -124,6 +124,7 @@ public class create_party extends android.support.v7.app.AppCompatActivity imple
     }
 
     public void startParty(View view) {
+        PartyPlaylist.songs.clear();
         Intent intent = new Intent(this, party_playlist.class);
         startActivity(intent);
     }
