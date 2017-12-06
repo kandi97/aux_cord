@@ -2,29 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/persona"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!--<include-->
     <!--layout="@layout/tool_bar_2"-->
     <!--android:id="@+id/top_toolbar"-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="wrap_content"/>-->
-    <ImageButton
-        android:layout_height="180dp"
-        android:layout_width="220dp"
-        android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"
-        android:scaleType="fitXY"
-        android:background="@drawable/persona_chart"
-        android:id="@+id/piechart"
 
-        />
+
 
     <Spinner
         android:id="@+id/party_spinner"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:background="@android:drawable/btn_dropdown"
-
+        android:entries="@array/Party"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
         android:textColor="@android:color/white"

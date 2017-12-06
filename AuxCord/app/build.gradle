@@ -29,4 +29,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:design:26.0.0-alpha1'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation files('build/libs/MPAndroidChart-master.jar')
 }

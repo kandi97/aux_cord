@@ -17,4 +17,13 @@
     <string name="now_playing">Now playing</string>
     <string name="search">Search</string>
     <string name="mypicks_toolbar">My Picks</string>
+
+
+    <string name="party_prompt">Choose a party</string>
+
+    <string-array name="Party">
+        <item>Pauls Party</item>
+        <item>Party 2</item>
+        <item>Party 3</item>
+    </string-array>
 </resources>
